@@ -1,0 +1,5 @@
+appname: example
+output: bin/example
+build_pkg: cmd/example/main.go
+watch_paths:
+  - /Users/silenceper/workspace/golang/src/github.com/silenceper/wechat

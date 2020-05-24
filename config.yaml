@@ -1,0 +1,12 @@
+# 监听本地的端口
+listen: :8080
+
+# 使用redis来存放access_token
+redis:
+  host: 127.0.0.1:6379
+
+# 微信公众号相关配置
+officialAccountConfig:
+  appID: wx92f6cf486ae64bbd
+  appSecret: d8f4921f17b4b02730c00476546dc50d
+  token: gowechat
