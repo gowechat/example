@@ -2,7 +2,7 @@
 wechat sdk examples
 
 ## 文档
-[wechat sdk文档](https://silenceper/wechat)
+[wechat sdk文档](https://silenceper.com/wechat)
 
 ## Build 
 ```go
