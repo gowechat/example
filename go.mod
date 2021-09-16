@@ -4,9 +4,10 @@ go 1.14
 
 require (
 	github.com/gin-gonic/gin v1.6.3
-	github.com/kr/pretty v0.1.0 // indirect
-	github.com/silenceper/wechat/v2 v2.0.0-alpha.1.0.20200524103213-a4a388aef7a8
-	github.com/sirupsen/logrus v1.6.0
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
+	github.com/silenceper/wechat/v2 v2.0.9
+	github.com/sirupsen/logrus v1.8.1
+	github.com/spf13/cast v1.4.1 // indirect
+	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
+	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
 	gopkg.in/yaml.v2 v2.2.8
 )
