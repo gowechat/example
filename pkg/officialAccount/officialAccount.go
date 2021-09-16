@@ -40,7 +40,7 @@ func (ex *ExampleOfficialAccount) Serve(c *gin.Context) {
 	server := ex.officialAccount.GetServer(c.Request, c.Writer)
 	server.SkipValidate(true)
 	//设置接收消息的处理方法
-	server.SetMessageHandler(func(msg message.MixMessage) *message.Reply {
+	server.SetMessageHandler(func(msg *message.MixMessage) *message.Reply {
 		//TODO
 		//回复消息：演示回复用户发送的消息
 		text := message.NewText(msg.Content)
